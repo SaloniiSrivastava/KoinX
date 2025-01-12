@@ -1,0 +1,101 @@
+.price-card {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2% 1% 2% 5%;
+    font-family: Arial, sans-serif;
+    width: 210%;
+    
+  }
+  
+  
+  .price-card .header {
+    display: flex;
+    align-items: center;
+    ;
+  }
+  
+  .price-card .header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5%;
+  }
+  
+  .price-card .header h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .price-card .header .rank {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 2%;
+  }
+  
+  .price-card .price h1 {
+    font-size: 32px;
+    margin: 10px 0 0px;
+  }
+  
+  .price-card .price h2 {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .price-card .change {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .price-card .change .change-value {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+    width: 65px;
+    justify-content: space-between;
+
+  }
+  .price-card .change .change-value span{
+    margin-right: 2%;
+  }
+  
+  .price-card .change .positive {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.2);
+  }
+  
+  .price-card .change .negative {
+    color: red;
+    background-color: rgba(254, 0, 0, 0.2);
+  }
+
+  .priceandchange{
+    display: flex;
+    align-items: center;
+  }
+  .priceandchange .change{
+    margin: 1.5%;
+  }
+  .priceandchange .change span{
+    color: #555;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .price-card {
+      background-color: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 2% 1% 2% 5%;
+      font-family: Arial, sans-serif;
+      width: 80%;
+      
+    }
+  }
+  

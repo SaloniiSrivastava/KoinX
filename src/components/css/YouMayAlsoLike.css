@@ -1,0 +1,122 @@
+.you-may-also-like {
+    padding: 20px;
+    background-color: white;
+}
+
+.carousel-container {
+    position: relative;
+    margin: 0% 5%;
+
+
+}
+
+.carousel-item {
+    border: 2px solid #c5c3c3;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.coin-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+
+
+.coin-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.coin-price {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 3%;
+    width: max-content;
+}
+
+.coin-graph {
+    width: 100%;
+    height: 40px;
+    object-fit: contain;
+}
+
+
+
+.coin-top {
+    display: flex;
+    align-items: center;
+}
+
+.coin-top p {
+    margin-left: 4%;
+}
+
+.coin-price-change {
+    font-size: 0.9rem;
+
+}
+
+.coin-price-change.positive {
+    color: green;
+    background-color: rgba(148, 241, 148, 0.4);
+}
+
+.coin-price-change.negative {
+    color: red;
+    background-color: rgba(239, 114, 114, 0.4);
+}
+
+.slick-slide {
+    margin-right: 0.8%;
+
+
+}
+
+.slick-track {
+    height: 15vh;
+}
+
+.coin-details {
+    width: max-content;
+}
+
+.slick-slider {
+    width: 100%;
+
+}
+
+.slick-prev .slick-next {
+    opacity: 1;
+    top:40%;
+}
+
+.slick-prev::before .slick-next::before {
+    opacity: 1;
+    top:40%;
+}
+.slick-prev, .slick-next {
+    background-color: #d6d6d6 !important; /* Ensure the background is dark */
+    color: white !important; /* Ensure the arrow icon is visible */
+    border: none !important;
+    border-radius: 50% !important;
+    width: 20px !important; /* Adjust the size as needed */
+    height: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #555 !important; /* Optional: add a hover effect */
+  }
+  
+  
+  

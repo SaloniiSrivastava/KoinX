@@ -1,0 +1,20 @@
+body{
+    background-color: #eef2f5;
+}
+.sec2 , .sec1{
+    display: flex;
+    
+}
+
+/* Add this to your styles.css or appropriate stylesheet */
+@media only screen and (max-width: 768px) {
+    .home, .home .sec1, .home .sec2, .performance-fundamentals, .sentiment, .about-bitcoin, .tokenomics, .team, .you-may-also-like {
+      display: block;
+      width: 100%;
+    }
+    
+    .sec1, .sec2, .performance-fundamentals, .sentiment, .about-bitcoin, .tokenomics, .team, .you-may-also-like {
+      margin-bottom: 20px; /* Add some spacing between the sections */
+    }
+  }
+  

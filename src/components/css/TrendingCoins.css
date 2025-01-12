@@ -1,0 +1,104 @@
+/* TrendingCoins.css */
+.trending-coins {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 0px 10px 10px ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0% 5% 0 1%;
+  }
+  
+  .trending-coins h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333333;
+  }
+  
+  .trending-coins ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .trending-coin {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    
+  }
+  
+  .trending-coin img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+  
+  .coin-details2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    
+    
+  }
+  
+  
+  .coin-name {
+    font-weight: bold;
+    color: #333333;
+    
+  }
+  
+  
+
+  .coin-price-change {
+    font-size: 0.9rem;
+    
+
+}
+.coin-price-change span{
+  margin: 6px;
+}
+
+.arrow {
+ 
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+
+
+.coin-price-change.positive {
+    color: green;
+    background-color: rgba(148, 241, 148, 0.4);
+    width: max-content;
+    padding: 5px;
+    
+}
+
+.coin-price-change.negative {
+    color: red;
+    background-color: rgba(239, 114, 114, 0.4);
+    width: max-content;
+    padding: 5px;
+}
+  
+@media only screen and (max-width: 768px) {
+  .trending-coins{
+    margin-left: 5%;
+    margin-top: 2% ;
+    padding: 2%;
+  }
+  .trending-coins h2{
+    font-size: medium;
+  }
+  
+}

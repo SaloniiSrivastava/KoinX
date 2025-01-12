@@ -1,0 +1,56 @@
+.about-team-section {
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: "Arial", sans-serif;
+    margin: 2% 5% 2% 5%;
+    text-align: left;
+  }
+  .bluePowder{
+    background-color: #e7f4ff;
+    border-radius: 5px;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  .bluePowder img{
+    margin-bottom: 20%;
+    border-radius: 5px;
+    height: 120px;
+    width: 120px;
+  }
+  .about-team-section .p{
+    margin-bottom: 1%;
+  }
+  
+  .photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+  }
+  .about-team-section h3,.about-team-section p{
+    margin: 0;
+    padding: 0;
+  }
+  .photo p{
+    color: gray;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .bluePowder{
+      background-color: #e7f4ff;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 3%;
+      align-items: center;
+      margin-bottom: 2%;
+    }
+    .bluePowder p{
+      font-size: small;
+    }
+  }
